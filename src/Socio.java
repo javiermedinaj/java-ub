@@ -14,7 +14,8 @@ public class Socio {
     public void setNombre(String nombre){
         this.nombre = nombre;
     }
-    public int getNumero(){
+    public int getNumero()
+    {
         return numero;
     }
     //no es necesario el setNumero porque el numero se asigna automaticamente
