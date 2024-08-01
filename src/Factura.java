@@ -31,7 +31,9 @@ public class Factura {
     public double getPrecio() {
         return precio;
     }
+
     //setters
+
     public void setNumeroDeArticulo(int numeroDeArticulo) {
         this.numeroDeArticulo = numeroDeArticulo;
     }
