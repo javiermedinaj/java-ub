@@ -1,0 +1,11 @@
+1) Existe duplicación de código.?
+Verdadero (V): Hay duplicación de código, ya que las clases DVD y CD tienen muchas similitudes en sus atributos y métodos. Podría evitarse esta duplicación utilizando herencia
+
+
+2) Si se modifica el campo duración de int a double para que pueda contener fracciones de tiempo debemos hacerlo una vez en la clase DVD y otra vez en la clase CD.
+
+Verdadero (V): Como las clases DVD y CD son independientes, si se cambia el tipo de dato para el campo duración, habria que hacerlo en ambas clases por separado
+
+3) Esta aplicación sirve con pequeñas modificaciones si queremos que también administre un catálogo de libros.
+
+Verdadero (V): Con algunas modificaciones (como agregar atributos específicos para libros, por ejemplo, autor y número de páginas), esta aplicación podría adaptarse para manejar un catálogo de libros.
